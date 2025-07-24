@@ -1,0 +1,91 @@
+@import "tailwindcss"
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.font-noto-serif{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+}
+
+
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+
+/* sheard style  */
+.text-color{
+    color: #E95A08;
+}
+.btn-primary{
+    background-color: #E95A08;
+    padding: 20px 40px;
+}
+
+
+/* header section  */
+/* header nav section  */
+header{
+    max-width: 1140px;
+    margin: 30px auto 0;
+}
+.navber{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    gap: 40px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* banner section style */
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+/* main section  */
+/* plants section style  */
+.plants-title{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+
+@media screen and (max-width: 576px) {
+    body{
+        margin: 0 30px;
+    }
+    .navber ul .div1{
+        display: none;
+    }
+    .navber img{
+        width: 70px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner img{
+        margin-top: -100px;
+    }
+    .banner-title{
+        font-size: 1.5rem;
+        margin-top: 24px;
+        margin-bottom: 15px;
+        /* margin: 24px 0; */
+    }
+
+}
