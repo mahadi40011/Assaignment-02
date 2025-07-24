@@ -85,7 +85,23 @@ nav ul li a{
         font-size: 1.5rem;
         margin-top: 24px;
         margin-bottom: 15px;
-        /* margin: 24px 0; */
+    }
+    .banner-description{
+        font-size: 0.85rem;
     }
 
+    /* card section  */
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .plants-title{
+        font-size: 1.5rem;
+    }
+    .plants-description{
+        font-size: 0.85rem;
+        margin: 12px auto 20px;
+    }
+    .plants{
+        margin-top: 70px;
+    }
 }
