@@ -1,6 +1,6 @@
 @import "tailwindcss"
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -92,6 +92,9 @@ nav ul li a{
     }
 
     /* navber style  */
+    .navber{
+        margin-top: 30px;
+    }
     .navber ul .div1{
         display: none;
     }
@@ -139,7 +142,7 @@ nav ul li a{
     .plants-lover{
         margin: 0 30px;
         flex-direction: column;
-        margin-top: 150px;
+        margin-top: 100px;
     }
     .plants-lover-title{
         font-size: 1.5rem;
@@ -158,9 +161,11 @@ nav ul li a{
     }
     .latest-deal-title{
         font-size: 1.5rem;
+        margin-top: 70px;
     }
     .latest-deal-description{
         font-size: 0.85rem;
+        margin-bottom: -20px;
     }
     .img-container{
         grid-template-columns: repeat(1, 1fr);
@@ -169,6 +174,9 @@ nav ul li a{
     }
     .img-container h2{
         font-size: 20px;
+    }
+    .img-container p{
+        font-size: 16px;
     }
     .left-site-img{
         margin-bottom: 16px;
@@ -184,10 +192,20 @@ nav ul li a{
         margin-bottom: -20px;
     }
     .join-section input{
-        width: 250px;
+        width: 230px;
     }
     .join-section{
         height: 250px;
+    }
 
+
+    /* footer style  */
+    .footer-content{
+        grid-template-columns: repeat(1,1fr);
+        margin: 0, 30px;
+        gap: 28px;
+    }
+    .footer-logo{
+        padding: 0;
     }
 }
