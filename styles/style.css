@@ -63,6 +63,11 @@ nav ul li a{
     font-size: 3rem;
     font-weight: 700;
 }
+.badge{
+    top: -110px;
+    right: -80px;
+}
+
 
 
 @media screen and (max-width: 576px) {
@@ -73,6 +78,7 @@ nav ul li a{
     .btn-primary{
         background-color: #E95A08;
         padding: 10px 20px;
+        font-size: 14px;
     }
 
     /* navber style  */
@@ -116,5 +122,41 @@ nav ul li a{
     }
     .plants{
         margin-top: 70px;
+    }
+
+    /* plants-lover section style  */
+    .plants-lover{
+        flex-direction: column;
+        margin-top: 150px;
+    }
+    .plants-lover-title{
+        font-size: 1.5rem;
+        margin-top: -20px;
+    }
+    .plants-lover-content ul li{
+        font-size: 0.85rem;
+    }
+    .badge{
+        display: none
+    }
+
+    /* Latest Deal Section style  */
+    .latest-deal-title{
+        font-size: 1.5rem;
+    }
+    .latest-deal-description{
+        font-size: 0.85rem;
+    }
+    .img-container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0;
+        margin-top: 40px;
+    }
+    .img-container h2{
+        font-size: 20px;
+    }
+    .left-site-img{
+        margin-bottom: 16px;
+        gap: 16px;
     }
 }
