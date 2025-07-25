@@ -66,9 +66,16 @@ nav ul li a{
 
 
 @media screen and (max-width: 576px) {
+    /* sheard style  */
     body{
         margin: 0 30px;
     }
+    .btn-primary{
+        background-color: #E95A08;
+        padding: 10px 20px;
+    }
+
+    /* navber style  */
     .navber ul .div1{
         display: none;
     }
@@ -93,6 +100,12 @@ nav ul li a{
     /* card section  */
     .cards{
         grid-template-columns: repeat(2, 1fr);
+    }
+    .card-name{
+        margin: 15px 0;
+    }
+    .card-name h4{
+        font-size: 16px;
     }
     .plants-title{
         font-size: 1.5rem;
